@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name": "优书网书单filter",
+	"version": "1.0",
+	"description": "针对优书网书单的一些简单的filter",
+	"author": "Aderlx",
+	"icons":
+	{
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"browser_action": 
+	{
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": 
+	[
+		{
+			"matches": ["https://www.yousuu.com/booklist/*"],
+			"js": ["content-script.js"],
+			"css": ["custom.css"],
+			"run_at" : "document_end"
+		}
+	],
+	"web_accessible_resources": 
+	[
+		"inject.js"
+	]
+}
