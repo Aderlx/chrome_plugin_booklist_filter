@@ -1,7 +1,7 @@
 # chrome\_plugin\_booklist\_filter
 This is a simple chrome plugin.
 
-针对**[优书网](https://www.yousuu.com/)**查看书单 的一些简单过滤.
+针对[优书网](https://www.yousuu.com/)查看书单 的一些简单过滤.
 
 ## Example
 ![test](images/show.jpg)
