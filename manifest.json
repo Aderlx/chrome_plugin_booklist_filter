@@ -17,7 +17,7 @@
 	"content_scripts": 
 	[
 		{
-			"matches": ["https://www.yousuu.com/booklist/*"],
+			"matches": ["https://www.yousuu.com/booklist/*","https://www.yousuu.com/Booklist/*"],
 			"js": ["content-script.js"],
 			"css": ["custom.css"],
 			"run_at" : "document_end"
